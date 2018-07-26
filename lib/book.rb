@@ -35,10 +35,10 @@ class Book
     @genre
   end
   
-end
+  def turn_page
+    puts "Flipping the page...wow, you read fast!"
+  end
 
-def turn_page
-  puts "Flipping the page...wow, you read fast!"
 end
 
 book = Book.new("And Then There Were None")
